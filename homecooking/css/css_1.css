@@ -62,9 +62,6 @@ input:focus::-webkit-input-placeholder {
 input:focus::-moz-placeholder {
   opacity: 0;
 }
-input {
-  -webkit-appearance: none;
-}
 .search_submit {
   float: left;
   font: 0.875rem "Microsoft Yahei";
@@ -72,6 +69,8 @@ input {
   padding: 0.5em;
   border: none;
   border-left: 2px solid #e01;
+  -webkit-appearance: none;
+  border-radius: 0;
   color: #fff;
   background-color: #e01;
   cursor: pointer;
